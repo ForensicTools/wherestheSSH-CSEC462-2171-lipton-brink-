@@ -24,7 +24,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '_)j4el*l_9m#r^-a=i=6p%974^#3w4s%@62#nq=acx0--ziq4^'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['192.168.1.13','74.69.67.86','127.0.0.1']
 
@@ -79,7 +79,7 @@ DATABASES = {
     'ENGINE': 'django.db.backends.postgresql',
     'NAME': 'mynetprojdb',
 	'USER': 'netproj',
-	'PASSWORD': 'Short)Girl(Covered)',
+	'PASSWORD': 'default',
 	'HOST': '127.0.0.1',
 	'PORT': '5432'
     }
